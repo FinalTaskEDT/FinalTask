@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dc18a3c-3d22-499b-8879-76c7e2281f78">
+  <name>ИтоговоеЗадание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Итоговое задание</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5b6fc7e5-26cc-495c-ac27-3dd244f5d81b"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="13b68348-5fae-4ed2-9572-c2df6b570af7"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="ee314e29-8893-46b9-9bac-db745aff833e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6b23593b-f96d-49b9-877c-fff1beee0301"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="95e37e8e-09c3-4a67-90ad-dfe2696f9c96"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="784ca0bd-3df6-4fc9-9d41-7d4926a26ea9"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e82dd3b5-cc09-4ea9-b2ca-13d9fc5faae0"/>
+  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.20</compatibilityMode>
+  <languages uuid="bb1b226a-c5b8-4c10-8bb9-5253393dde08">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Товары</catalogs>
+  <documents>Document.Продажа</documents>
+  <enums>Enum.СтавкиНДС</enums>
+</mdclass:Configuration>
